@@ -1,0 +1,8 @@
+{
+    "name": "root/hello-php",
+    "type": "project",
+    "minimum-stability": "dev",
+    "require": {
+        "vitalis/hello-composer": "dev-master"
+    }
+}
