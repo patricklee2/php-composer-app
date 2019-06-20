@@ -4,27 +4,27 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit821305cb25ad70463fbae12a7ec8de17
+class ComposerStaticInite1e47b5116bbbd99f9af0f56f2fa48f3
 {
     public static $prefixLengthsPsr4 = array (
-        'v' => 
+        'R' => 
         array (
-            'vitalis\\HelloWorld\\' => 19,
+            'Rivsen\\Demo\\' => 12,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'vitalis\\HelloWorld\\' => 
+        'Rivsen\\Demo\\' => 
         array (
-            0 => __DIR__ . '/..' . '/vitalis/hello-composer/src',
+            0 => __DIR__ . '/..' . '/rivsen/hello-world/src',
         ),
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit821305cb25ad70463fbae12a7ec8de17::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit821305cb25ad70463fbae12a7ec8de17::$prefixDirsPsr4;
+            $loader->prefixLengthsPsr4 = ComposerStaticInite1e47b5116bbbd99f9af0f56f2fa48f3::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInite1e47b5116bbbd99f9af0f56f2fa48f3::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }

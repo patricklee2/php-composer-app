@@ -1,8 +1,6 @@
 {
     "name": "root/hello-php",
-    "type": "project",
-    "minimum-stability": "dev",
     "require": {
-        "vitalis/hello-composer": "dev-master"
+        "rivsen/hello-world": "^0.1.0"
     }
 }
